@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CedarTokens_Example' do
+  pod 'CedarTokens', :path => '../'
+
+  target 'CedarTokens_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
